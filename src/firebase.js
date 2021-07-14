@@ -3,16 +3,15 @@ import firebase from 'firebase/app';
 import 'firebase/database';
 
 // initialize firebase
-    const firebaseConfig = {
-    apiKey: "AIzaSyDB-n3dw4K6x1w7K2n48mhtL51WdZ_6KMg",
-    authDomain: "u-2-write-a2e1d.firebaseapp.com",
-    databaseURL: "https://u-2-write-a2e1d-default-rtdb.firebaseio.com",
-    projectId: "u-2-write-a2e1d",
-    storageBucket: "u-2-write-a2e1d.appspot.com",
-    messagingSenderId: "805184874622",
-    appId: "1:805184874622:web:c0d63bdd95a399254fd02f"
+const firebaseConfig = {
+  apiKey: "AIzaSyDPSOzRQsUm4vJYmDgDO5CphnLO_lE3RW8",
+  authDomain: "bootcamp-diaries.firebaseapp.com",
+  projectId: "bootcamp-diaries",
+  storageBucket: "bootcamp-diaries.appspot.com",
+  messagingSenderId: "974889761211",
+  appId: "1:974889761211:web:47031ec515f0636add6c9e"
+};
 
-  };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 
