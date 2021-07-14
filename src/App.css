@@ -16,6 +16,7 @@ img {
 
 body {
     max-width: 1600px;
+    margin: 0 auto;
     background-color: #EAE5E9;
     font-family: 'Lato', sans-serif;
 }
